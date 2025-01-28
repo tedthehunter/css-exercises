@@ -1,0 +1,19 @@
+.para-class {
+    background-color: rgb(224, 162, 171);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#id-1 {
+    color: blue;
+    font-size: 36px;
+}
+
+.big {
+    font-size: 24px;
+}
+
+#id-2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: 700;
+}
