@@ -59,7 +59,7 @@ body {
 
 .content {
   display: flex;
-  flex: auto;
+  flex: 1;
 }
 
 .cards {
