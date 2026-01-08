@@ -86,6 +86,9 @@
 
 .article {
   background-color: #bccbde;
+  display: grid;
+  grid: 1fr / repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
 }
 
 .article p {
@@ -99,6 +102,7 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  height: 200px;
 }
 
 .card p {
@@ -110,6 +114,7 @@
 .card .title {
   font-size: 18px;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .footer {
