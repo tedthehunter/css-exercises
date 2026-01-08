@@ -44,6 +44,9 @@
 
 .sidebar {
   background-color: #C50208;
+  grid-area: 2 / 1 / 4 / 2;
+  display: grid;
+  gap: 50px;
 }
 
 .sidebar .photo {
@@ -52,6 +55,8 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  display: grid;
+  place-items: center;
 }
 
 
@@ -60,6 +65,8 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  display: grid;
+  place-items: center;
 }
 
 .nav {
@@ -69,6 +76,12 @@
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+  list-style: none;
+}
+
+.nav ul {
+  display: grid;
+  grid: 1fr / repeat(3, 1fr);
 }
 
 .article {
